@@ -1,0 +1,72 @@
+spring:
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver #这里的格式要对齐，不然连接会失败
+        username: root
+        password: 123456
+        url: jdbc:mysql://127.0.0.1:3306/sell?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF8&useSSL=false
+#        url: jdbc:mysql://192.168.0.107/sell?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF8&useSSL=false
+    jpa:
+        show-sql: true
+    jackson:
+        default-property-inclusion: non_null
+        #这里jaskson not null全局的返回值为null的忽略
+    redis:
+        host: 127.0.0.1
+        port: 6379
+#        password: 123456
+server:
+    servlet:
+        context-path:  /sell # 项目路径，是构成url地址的一部分。 默认可以不配置
+
+wechat:
+    #公众账号，授权
+    mpAppId: wxd898fcb01713c658 #这里每个：字段后面要加空格不然识别不了 wxf61a3bbbae5f5c12  自己的
+    mpAppSecret: 55881296ca554d1a26ff00a6f2d9bcc6 #要要廖师兄的这里
+
+    #开发平台，卖家登录用的
+    openAppid: wx6ad144e54af67d87
+    openAppSecret: 91a2ff6d38a2bbccfb7e9f9079108e2e
+
+    #支付/商家号
+    mchId: 1483469312
+    mchkey: 098F6BCD4621D373CADE4E832627B4F6
+
+    #退款的证书 异步通知的地址
+    keyPath: E:/javaWorkspace/AllStudy/weixincert/h5.p12
+    notifyUrl: http://alfieapp.natapp1.cc/sell/pay/notify
+    #http://proxy.springboot.cn/pay?openid=OPENID&
+    #http://proxy.springboot.cn/pay?openid=OPENID&orderId=1501830787417512510&returnUrl=http://www.imooc.com
+    #http://proxy.springboot.cn/pay?openid=oTgZpwdxPNubsU9SiXkQ8jv1KzeQ&orderId=156692370306288448&returnUrl=http://www.imooc.com
+    templateId:
+        orderStatus: McpDAsO5MWnVcdSgmjP44NCqKEDkMz_dsPSkbqy8uVQ
+        xxid: ajdfl
+
+projecturl:
+#    微信公众平台url
+    weChatMpAuthorize: http://alfieapp.natapp1.cc
+#    开放平台
+    weChatOpenAuthorize: http://alfieapp.natapp1.cc
+#    点餐系统
+    sell: http://127.0.0.1:8080
+
+#logging:
+#    pattern:
+##        console: "%d - %msg%n"    #这里配置输出日志的格式
+##    path: E:\javaWorkspace\AllStudy\logs  #/var/log/tomcat/ 这种表示输出到该项目所在磁盘的/log/tomcat/目录下
+#    file: E:\javaWorkspace\AllStudy\logs/sell.log #输出的文件名
+#    level:
+#        root:  #这种才可以输出debug
+#            debug
+#        com.imooc.LoggerTest: debug
+#        org.springframework.web: error
+#        org.hibernate: error
+#
+#    #        debug
+##        com.imooc.LoggerTest: debug
+##        test.java.com.imooc.LoggerTest: debug
+#
+##    logging.level.root=WARN
+##    logging.level.org.springframework.web=DEBUG
+##    logging.level.org.hibernate=ERROR
+
+

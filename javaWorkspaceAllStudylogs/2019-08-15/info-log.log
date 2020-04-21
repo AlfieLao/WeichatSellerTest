@@ -1,0 +1,38 @@
+2019-08-15 23:29:03.622 [main] INFO  com.imooc.sell.repository.ProductCategoryRepositoryTest - Starting ProductCategoryRepositoryTest on CHINA-20190402U with PID 9320 (started by Administrator in E:\javaWorkspace\AllStudy)
+2019-08-15 23:29:03.625 [main] INFO  com.imooc.sell.repository.ProductCategoryRepositoryTest - No active profile set, falling back to default profiles: default
+2019-08-15 23:29:07.501 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-15 23:29:07.857 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 250ms. Found 1 repository interfaces.
+2019-08-15 23:29:10.823 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$efc69acd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-15 23:29:12.567 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-08-15 23:29:13.593 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-08-15 23:29:14.472 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-15 23:29:14.480 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-08-15 23:29:15.409 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-15 23:29:17.894 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-15 23:29:21.717 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-15 23:29:28.339 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-15 23:29:31.938 [main] INFO  com.imooc.sell.repository.ProductCategoryRepositoryTest - Started ProductCategoryRepositoryTest in 30.871 seconds (JVM running for 35.989)
+2019-08-15 23:29:32.566 [main] INFO  com.imooc.sell.repository.ProductCategoryRepositoryTest - 类目id：{0},名字{1}，分类{2}
+2019-08-15 23:29:32.705 [Thread-2] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-15 23:29:32.708 [Thread-2] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-08-15 23:29:32.721 [Thread-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-08-15 23:29:32.985 [Thread-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2019-08-15 23:30:35.848 [main] INFO  com.imooc.sell.repository.ProductCategoryRepositoryTest - Starting ProductCategoryRepositoryTest on CHINA-20190402U with PID 8340 (started by Administrator in E:\javaWorkspace\AllStudy)
+2019-08-15 23:30:35.854 [main] INFO  com.imooc.sell.repository.ProductCategoryRepositoryTest - No active profile set, falling back to default profiles: default
+2019-08-15 23:30:40.038 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-15 23:30:40.632 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 458ms. Found 1 repository interfaces.
+2019-08-15 23:30:43.363 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2a493ca0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-15 23:30:45.016 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-08-15 23:30:46.132 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-08-15 23:30:47.251 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-15 23:30:47.260 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-08-15 23:30:48.453 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-15 23:30:51.405 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-15 23:30:55.148 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-15 23:31:01.918 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-15 23:31:05.068 [main] INFO  com.imooc.sell.repository.ProductCategoryRepositoryTest - Started ProductCategoryRepositoryTest in 31.817 seconds (JVM running for 38.303)
+2019-08-15 23:31:05.729 [main] INFO  com.imooc.sell.repository.ProductCategoryRepositoryTest - 类目id：1,名字热销，分类2
+2019-08-15 23:31:05.760 [Thread-2] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-15 23:31:05.763 [Thread-2] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-08-15 23:31:05.776 [Thread-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-08-15 23:31:05.834 [Thread-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

@@ -1,0 +1,25 @@
+2019-08-08 23:58:53.788  INFO 11040 --- [main] com.imooc.sell.LoggerTest                : Starting LoggerTest on CHINA-20190402U with PID 11040 (started by Administrator in E:\javaWorkspace\AllStudy)
+2019-08-08 23:58:53.795  INFO 11040 --- [main] com.imooc.sell.LoggerTest                : No active profile set, falling back to default profiles: default
+2019-08-08 23:58:55.974  INFO 11040 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-08 23:58:56.077  INFO 11040 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64ms. Found 0 repository interfaces.
+2019-08-08 23:58:57.593  INFO 11040 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$52edfd1a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-08 23:58:58.504  INFO 11040 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-08-08 23:58:58.882  INFO 11040 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-08-08 23:58:59.209  INFO 11040 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-08 23:58:59.385  INFO 11040 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-08 23:58:59.388  INFO 11040 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-08-08 23:58:59.872  INFO 11040 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-08 23:59:01.103  INFO 11040 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-08 23:59:01.758  INFO 11040 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-08 23:59:05.307  INFO 11040 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-08 23:59:05.610  WARN 11040 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-08 23:59:07.938  INFO 11040 --- [main] com.imooc.sell.LoggerTest                : Started LoggerTest in 15.511 seconds (JVM running for 17.923)
+2019-08-08 23:59:08.486  INFO 11040 --- [main] com.imooc.sell.LoggerTest                : name:liu ,psw:123
+2019-08-08 23:59:08.490  INFO 11040 --- [main] com.imooc.sell.LoggerTest                : info...
+2019-08-08 23:59:08.491 ERROR 11040 --- [main] com.imooc.sell.LoggerTest                : error...
+2019-08-08 23:59:08.531  INFO 11040 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-08 23:59:08.537  INFO 11040 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-08-08 23:59:08.543  INFO 11040 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-08-08 23:59:08.599  INFO 11040 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
